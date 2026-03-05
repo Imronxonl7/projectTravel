@@ -3,7 +3,7 @@ import Container from './Container'
 
 const ChooseTrip = () => {
   return (
-    <section>
+    <section >
       <Container className='Your style'>
         <div>
             {/** Input your code */}
