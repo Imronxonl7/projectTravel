@@ -7,6 +7,7 @@ import NextAdventure from "@/components/NextAdventure";
 import RoamingTales from "@/components/RoamingTales";
 import TravelItineraries from "@/components/TravelItineraries";
 import UnforgettableTravel from "@/components/UnforgettableTravel";
+import WanderingSouls from "@/components/WanderingSouls";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -26,6 +27,7 @@ const HomePage = () => {
       <TravelItineraries />
       <UnforgettableTravel />
       <ClearPrice />
+      <WanderingSouls/>
       <RoamingTales />
     </>
   );
