@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ArchivePage = () => {
+const PagesPage = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const ArchivePage = () => {
   )
 }
 
-export default ArchivePage
+export default PagesPage
