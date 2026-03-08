@@ -1,7 +1,11 @@
 'use client'
 
+import { Reenie_Beanie } from 'next/font/google'
 import React, { useState } from 'react'
-
+const reenieBeanie = Reenie_Beanie({
+  weight: '400',
+  subsets: ['latin'],
+})
 const ContactForm = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -16,8 +20,8 @@ const ContactForm = () => {
       <div className='max-w-xl mx-auto bg-gray-50 rounded-2xl shadow-xl p-8 sm:p-10'>
         
         <div className='text-center mb-8'>
-          <p className='text-sm tracking-widest text-emerald-500 uppercase font-semibold mb-2'
-            style={{ fontFamily: 'cursive' }}>
+          <p className={`text-[30px] tracking-widest text-emerald-500 uppercase font-semibold mb-2 ${reenieBeanie.className}`}
+            >
             Plan your Next Trip
           </p>
           <h2 className='text-3xl sm:text-4xl font-bold text-gray-900 mb-3'
