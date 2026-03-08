@@ -18,7 +18,7 @@ const navItems: NavItem[] = [
   { label: 'Pages', href: '/pages' },
   { label: 'Shop', href: '/shop' },
   { label: 'Blog', href: '/blog' },
-  { label: 'Contact Us', href: '/contact' },
+  { label: 'Contact Us', href: '/contactUs' },
 ]
 
 // Rasmdagi loyihadan ko'ringan barcha bo'limlar (VSCode explorer dan)
@@ -28,7 +28,7 @@ const mobileMenuSections = [
     items: [
       { label: 'Home', href: '/' },
       { label: 'About', href: '/about' },
-      { label: 'Contact Us', href: '/contact' },
+      { label: 'Contact Us', href: '/contactUs' },
     ],
   },
   {
