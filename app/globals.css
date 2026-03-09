@@ -1,1 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 @import "tailwindcss";
+
+.reenie-beanie-regular {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.worldD{
+    background-image: url("../assets/images/WorldDote.svg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}

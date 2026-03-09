@@ -6,7 +6,7 @@ import DestinationCard from './DestinationCard'
 
 const DreamDestination = () => {
   return (
-    <section>
+    <section className='py-20'>
       <Container className='Your style'>
         <div className='flex flex-col gap-20'>
             <DestinationText/>

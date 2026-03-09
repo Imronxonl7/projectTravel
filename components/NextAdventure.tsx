@@ -5,9 +5,9 @@ import NextAdventureCards from './NextAdventureCards'
 
 const NextAdventure = () => {
   return (
-    <section>
+    <section className='py-20'>
       <Container className='Your style'>
-        <div>
+        <div className='flex flex-col gap-15'>
             <NextAdventureText/>
             <NextAdventureCards/>
         </div>
