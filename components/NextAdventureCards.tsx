@@ -11,13 +11,13 @@ const NextAdventureCards = async () => {
 
 
   return (
-    <div className='grid grid-cols-4 gap-5'>
+    <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
       {
         destinations?.slice(0, 8)?.map((el: Destination) => {
           return (
-            <Link href={`/destination/${el.id}`} className='relative max-w-[350px] w-full h-100 bg-amber-300 rounded-[20px] overflow-hidden' key={el.id}>
+            <Link href={`/destination/${el.id}`} className='relative group max-w-[350px] w-full h-100 bg-amber-300 rounded-[20px] overflow-hidden' key={el.id}>
               <div className='w-full h-full'>
-                <Image className='h-full w-full object-cover' width={400} height={400} src={el.cover_image} alt={el.name_uz} />
+                <Image className='h-full w-full object-cover group-hover:scale-[1.1] duration-300 cursor-pointer' width={400} height={400} src={el.cover_image} alt={el.name_uz} />
               </div>
               <div className='absolute bg-linear-to-t from-[#1d5148] bottom-0 h-full w-full'></div>
               <div className='absolute bottom-8 text-center'>

@@ -15,18 +15,18 @@ const ChooseTrip = () => {
         </p>
 
         {/* Main heading */}
-        <h1 className="text-4xl font-black text-gray-900 mb-4">
+        <h1 className="max-w-[641px] w-full text-[35px] md:text-[40px] lg:text-[50px] font-bold leading-[35px] md:leading-[40px] lg:leading-[60px] mb-4 mx-auto">
           Start your Vacation Now
         </h1>
 
         {/* Description */}
-        <p className="text-gray-400 text-sm leading-relaxed mb-10 max-w-lg mx-auto">
+        <p className="max-w-[641px] w-full text-[16px] leading-[20px] lg:leading-[24px] mb-10 mx-auto">
           Looking for your dream vacation destination but don&apos;t know where to start? With the help of
           experienced and knowledgeable travel agents, you can plan the trip of a lifetime with ease.
         </p>
 
         {/* Search Bar */}
-        <div className="bg-white rounded-2xl shadow-md flex items-center px-6 py-4 gap-4">
+        <div className="bg-white rounded-2xl w-full shadow-md flex flex-col md:flex-row items-start md:items-center px-6 py-4 gap-4">
 
           {/* Search */}
           <div className="flex items-center gap-3 flex-1 min-w-0">
@@ -41,7 +41,9 @@ const ChooseTrip = () => {
           </div>
 
           {/* Divider */}
-          <div className="w-px h-10 bg-gray-200 shrink-0" />
+          <div className="w-px h-10 hidden md:block bg-gray-200 shrink-0" />
+
+          <hr className="md:hidden w-full text-gray-300" />
 
           {/* Destinations */}
           <div className="flex items-center gap-3 flex-1 min-w-0">
@@ -55,7 +57,9 @@ const ChooseTrip = () => {
           </div>
 
           {/* Divider */}
-          <div className="w-px h-10 bg-gray-200 shrink-0" />
+          <div className="w-px h-10 hidden md:block bg-gray-200 shrink-0" />
+
+          <hr className="md:hidden w-full text-gray-300" />
 
           {/* Typologies */}
           <div className="flex items-center gap-3 flex-1 min-w-0">
@@ -69,7 +73,7 @@ const ChooseTrip = () => {
           </div>
 
           {/* Search Button */}
-          <button className="bg-red-400 hover:bg-red-500 active:scale-95 transition-all text-white font-bold text-sm tracking-widest px-10 py-4 rounded-xl shrink-0">
+          <button className="bg-red-400 w-full md:w-auto hover:bg-red-500 active:scale-95 transition-all text-white font-bold text-sm tracking-widest px-10 py-4 rounded-xl shrink-0">
             SEARCH
           </button>
 
