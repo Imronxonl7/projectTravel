@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Siz bu yerda butun dunyo bo'ylab 200 dan ortiq davlarda sayohat qilishingiz mumkin, barchasi qulay va tez",
 };
-
+export const dynamic = "force-dynamic";
 const HomePage = () => {
   return (
     <>

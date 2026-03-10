@@ -5,6 +5,7 @@ const getData = async ({ url }: { url: string }) => {
     next: {
       revalidate: 3600,
     },
+    cache: "no-store"
   });
   const allData = await data.json();
   return allData;
