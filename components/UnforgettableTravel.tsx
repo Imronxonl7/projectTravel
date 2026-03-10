@@ -7,8 +7,8 @@ import { Faq } from "@/types/Faq";
 import getData from "@/utils/api";
 
 
-const UnforgettableTravel = async() => {
-  const faqs = await getData({url:"faq"})
+const UnforgettableTravel = async () => {
+  const faqs = await getData({ url: "faq" })
   return (
     /*
       section has:
