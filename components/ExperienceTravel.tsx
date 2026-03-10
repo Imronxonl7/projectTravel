@@ -45,7 +45,7 @@ const ExperienceTravel = () => {
         /* ── Hero ── */
         .et-hero {
           position: relative;
-          padding: 80px 0 100px;
+          padding: 80px 0;
           overflow: hidden;
           flex: 1;
         }
