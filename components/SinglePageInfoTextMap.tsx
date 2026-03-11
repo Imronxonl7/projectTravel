@@ -1,5 +1,4 @@
 import { Package } from '@/types/Package'
-import PackageCard from './PackageCards'
 
 function SinglePageInfoTextMap({ packageData }: { packageData: Package }) {
     return (
