@@ -15,7 +15,7 @@ const PackageCard = async () => {
                 {
                     packages?.map((el: Package) => {
                         return (
-                            <div key={el.id} className="max-w-[600px] w-full rounded-3xl overflow-hidden bg-white shadow-lg duration-300 hover:translate-y-[-10px] hover:shadow-2xl">
+                            <div key={el.id} className="max-w-150 w-full rounded-3xl overflow-hidden bg-white shadow-lg duration-300 hover:-translate-y-2.5 hover:shadow-2xl">
                                 {/* Image */}
                                 <div className="relative h-50 w-full">
                                     <Image width={400} height={400}

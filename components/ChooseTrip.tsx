@@ -15,12 +15,12 @@ const ChooseTrip = () => {
         </p>
 
         {/* Main heading */}
-        <h1 className="max-w-[641px] w-full text-[35px] md:text-[40px] lg:text-[50px] font-bold leading-[35px] md:leading-[40px] lg:leading-[60px] mb-4 mx-auto">
+        <h1 className="max-w-160.25 w-full text-[35px] md:text-[40px] lg:text-[50px] font-bold leading-8.75 md:leading-10 lg:leading-15 mb-4 mx-auto">
           Start your Vacation Now
         </h1>
 
         {/* Description */}
-        <p className="max-w-[641px] w-full text-[16px] leading-[20px] lg:leading-[24px] mb-10 mx-auto">
+        <p className="max-w-160.25 w-full text-[16px] leading-5 lg:leading-6 mb-10 mx-auto">
           Looking for your dream vacation destination but don&apos;t know where to start? With the help of
           experienced and knowledgeable travel agents, you can plan the trip of a lifetime with ease.
         </p>
