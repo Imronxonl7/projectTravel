@@ -7,7 +7,7 @@ const ClearPrice = () => {
   return (
     <section>
       <Container className='Your style'>
-        <div className='flex flex-col gap-20'>
+        <div className='flex flex-col gap-21'>
             <ClearPriceText/>
             <ClearPriceCards/>
         </div>
