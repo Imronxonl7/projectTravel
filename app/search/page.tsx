@@ -1,11 +1,15 @@
-import React from 'react'
+import SearchFilter from "@/components/SearchFilter";
+import SearchTopImage from "@/components/SearchTopImage";
+import getData from "@/utils/api";
 
-const SearchPage = () => {
+const SearchPage = async () => {
+  const packages = await getData({ url: "package" });
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <section>
+        <SearchTopImage/>
+        <SearchFilter packages={packages}/> 
+    </section>
+  );
+};
 
-export default SearchPage
+export default SearchPage;
