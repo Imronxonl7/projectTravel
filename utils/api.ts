@@ -4,8 +4,7 @@ const getData = async ({ url }: { url: string }) => {
   const data = await fetch(`${BASE_URL}/${url}`, {
     next: {
       revalidate: 3600,
-    },
-    cache: "no-store"
+    }
   });
   const allData = await data.json();
   return allData;
