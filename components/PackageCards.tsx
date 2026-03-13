@@ -35,7 +35,7 @@ const PackageCard = async () => {
                                                 <circle cx="12" cy="12" r="10" />
                                                 <path strokeLinecap="round" d="M12 6v6l4 2" />
                                             </svg>
-                                            {el.duration_days}
+                                            {el.duration_days} days
                                         </div>
                                         <div className="flex items-center gap-2">
                                             {/* Mail icon */}

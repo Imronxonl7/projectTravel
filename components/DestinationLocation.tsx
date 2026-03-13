@@ -7,7 +7,7 @@ import React from 'react'
 const DestinationLocation = async () => {
 
   const category = await getData({ url: "category" })
-  console.log(category);
+
 
   return (
     <div className='flex justify-center'>
