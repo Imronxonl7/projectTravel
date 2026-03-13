@@ -7,7 +7,7 @@ import Image from "next/image"
 
   return (
     <div className='w-full'>
-      {/* Hero section - alohida */}
+
       <div className='relative w-full h-96 overflow-hidden'>
         <Image
           src='https://www.irishexaminer.com/cms_media/module_img/8956/4478389_3_org_iStock-1137373430.jpg'
