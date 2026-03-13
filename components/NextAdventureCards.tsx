@@ -7,7 +7,7 @@ import React from 'react'
 const NextAdventureCards = async () => {
 
   const destinations = await getData({ url: "destination" });
-  console.log(destinations);
+
 
 
   return (
