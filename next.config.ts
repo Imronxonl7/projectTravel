@@ -1,9 +1,24 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  images:{
-    domains: ['thumbs.dreamstime.com','www.irishexaminer.com', 'www.shms.com', 'tse2.mm.bing.net', 'images.pexels.com', 'res.cloudinary.com', "i.ytimg.com", 'adventourss.com', 'adventourss.com', 'aperturejourneys.com', 'www.historyhit.com', 'cdn.properties.emaar.com', 'i.pinimg.com', 'tse3.mm.bing.net' , 'encrypted-tbn3.gstatic.com']
-  }
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: 'thumbs.dreamstime.com' },
+      { protocol: 'https', hostname: 'www.irishexaminer.com' },
+      { protocol: 'https', hostname: 'www.shms.com' },
+      { protocol: 'https', hostname: 'tse2.mm.bing.net' },
+      { protocol: 'https', hostname: 'images.pexels.com' },
+      { protocol: 'https', hostname: 'res.cloudinary.com' },
+      { protocol: 'https', hostname: 'i.ytimg.com' },
+      { protocol: 'https', hostname: 'adventourss.com' },
+      { protocol: 'https', hostname: 'aperturejourneys.com' },
+      { protocol: 'https', hostname: 'www.historyhit.com' },
+      { protocol: 'https', hostname: 'cdn.properties.emaar.com' },
+      { protocol: 'https', hostname: 'i.pinimg.com' },
+      { protocol: 'https', hostname: 'tse3.mm.bing.net' },
+      { protocol: 'https', hostname: 'encrypted-tbn3.gstatic.com' },
+    ],
+  },
 };
 
 export default nextConfig;
