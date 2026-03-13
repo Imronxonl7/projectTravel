@@ -13,7 +13,7 @@ const DestinationLocation = async () => {
     <div className='flex justify-center'>
       <div className='w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5'>
         {category.map((item: Category) => (
-          <Link href={`/destination/${item.id}`} className='mx-auto group duration-300 shadow-[0_5px_10px_0px] shadow-[#9a9a9a] relative max-w-[400px] w-full h-[120px] rounded-[15px] overflow-hidden' key={item.id}>
+          <Link href={`/destination/${item.id}`} className='mx-auto group duration-300 shadow-[0_5px_10px_0px] shadow-[#9a9a9a] relative max-w-[500px] w-full h-[120px] rounded-[15px] overflow-hidden' key={item.id}>
             <div className='w-full h-full'>
               <Image className='transition-transform duration-300 group-hover:scale-[1.1] w-full h-full object-cover' src={item.icon} alt={item.name_uz} width={400} height={400} />
             </div>
