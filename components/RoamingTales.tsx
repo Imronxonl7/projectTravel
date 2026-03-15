@@ -21,7 +21,7 @@ const TravelBlog = () => {
                     <h2 className="text-3xl font-bold text-gray-800 mb-3">Travel Blog</h2>
                     <p className="text-sm text-gray-500 max-w-lg mx-auto leading-relaxed">
                         We share our experiences, tips and travel stories to inspire and guide our readers
-                        in their own wanderlust adventures. From hidden gems to popular destinations.
+                        in their own wanderlust adventures. From hidden gems to popular destinations
                     </p>
                 </div>
 
