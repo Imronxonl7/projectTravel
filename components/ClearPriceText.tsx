@@ -5,8 +5,11 @@ const ClearPriceText = () => {
     <div>
       <div className="text-center max-w-[640px] mx-auto">
 
-        <p className="text-[14px] text-teal-500 mb-[8px] font-medium">
-          User Price
+        <p
+          className="text-emerald-400 pt-[100px] text-[30px] mb-3"
+          style={{ fontFamily: "'Reenie Beanie', cursive" }}
+        >
+          Clear Price
         </p>
 
         <h2 className="text-[40px] leading-[48px] font-bold text-gray-900 mb-[12px]">
