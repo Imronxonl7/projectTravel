@@ -28,7 +28,7 @@ const PackageSinglePage = async ({ params }: { params: Promise<{ SingleId: strin
                     <Image className='h-full w-full rounded-[20px] object-cover  container mx-auto opacity-100 z-20' src={packageData.cover_image} alt={packageData.title_uz} width={1200} height={1200} />
                 </div>
             </div>
-            <TripHeader className='w-full' packageData={packageData} />
+            <TripHeader packageData={packageData} />
             <Container className='flex lg:flex-row flex-col gap-10 items-start my-10'>
                 <SinglePageInfoTextMap packageData={packageData} />
                 <div className='w-full lg:w-1/3'>
