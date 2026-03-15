@@ -2,7 +2,7 @@ import { Package } from '@/types/Package'
 
 function SinglePageInfoTextMap({ packageData }: { packageData: Package }) {
     return (
-        <div className='w-2/3 flex flex-col gap-6'>
+        <div className='w-full lg:w-2/3 flex flex-col gap-6'>
             <div>
                 <h1 className="text-3xl font-bold text-gray-900 mb-4">Enjoy the Adventure</h1>
                 <p className="text-gray-500 mb-2">Are you looking for an adventure of a lifetime? Join us on an unforgettable journey through some of the

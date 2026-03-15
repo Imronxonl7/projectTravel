@@ -6,10 +6,10 @@ import Container from "./Container";
 export default function TripHeader({ packageData }: { packageData: Package }) {
     return (
         <div className="w-full bg-[#f0f2f5] px-8 py-10">
-            <Container className="flex items-center justify-between">
+            <Container className="flex md:flex-row flex-col w-full gap-5 md:gap-0 md:items-center items-start justify-between">
 
                 {/* Left: Destination */}
-                <div>
+                <div className="w-full">
                     <h1 className="text-[25px] font-bold text-[#25a896] leading-tight">
                         {packageData.title_uz}
                     </h1>
@@ -22,7 +22,7 @@ export default function TripHeader({ packageData }: { packageData: Package }) {
                 </div>
 
                 {/* Right: Stats */}
-                <div className="flex items-center gap-12">
+                <div className="flex items-center w-full flex-wrap md:flex-nowrap justify-between md:justify-start md:gap-12 gap-5">
 
                     {/* Duration */}
                     <div className="flex items-center gap-3">
