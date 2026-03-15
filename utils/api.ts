@@ -1,8 +1,7 @@
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 const getData = async ({ url }: { url: string }) => {
   try {
-    const res = await fetch(`${BASE_URL}/${url}`, {
+    const res = await fetch(`${"https://x8ki-letl-twmt.n7.xano.io/api:qNrTfAaz"}/${url}`, {
       // Явно используем только revalidate без дополнительных параметров cache
       next: {
         revalidate: 3600,
