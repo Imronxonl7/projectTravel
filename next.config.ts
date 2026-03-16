@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
+      { protocol: 'https', hostname: 'x8ki-letl-twmt.n7.xano.io' },
       { protocol: 'https', hostname: 'thumbs.dreamstime.com' },
       { protocol: 'https', hostname: 'www.irishexaminer.com' },
       { protocol: 'https', hostname: 'www.shms.com' },
