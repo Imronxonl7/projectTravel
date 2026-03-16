@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 
@@ -46,7 +47,7 @@ const ChooseTrip = () => {
           <hr className="md:hidden w-full text-gray-300" />
 
           {/* Destinations */}
-          <div className="flex items-center gap-3 flex-1 min-w-0">
+          <Link href={"/destination"} className="flex items-center gap-3 flex-1 min-w-0">
             <svg className="w-6 h-6 text-orange-400 shrink-0" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
             </svg>
@@ -54,7 +55,7 @@ const ChooseTrip = () => {
               <p className="text-sm font-bold text-gray-900">Destinations</p>
               <p className="text-xs text-gray-400">All Destinations</p>
             </div>
-          </div>
+          </Link>
 
           {/* Divider */}
           <div className="w-px h-10 hidden md:block bg-gray-200 shrink-0" />
@@ -62,7 +63,7 @@ const ChooseTrip = () => {
           <hr className="md:hidden w-full text-gray-300" />
 
           {/* Typologies */}
-          <div className="flex items-center gap-3 flex-1 min-w-0">
+          <Link href={"/typologies"} className="flex items-center gap-3 flex-1 min-w-0">
             <svg className="w-6 h-6 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h10M4 14h16M4 18h10" />
             </svg>
@@ -70,12 +71,12 @@ const ChooseTrip = () => {
               <p className="text-sm font-bold text-gray-900">Typologies</p>
               <p className="text-xs text-gray-400">All Typologies</p>
             </div>
-          </div>
+          </Link>
 
           {/* Search Button */}
-          <button className="bg-red-400 w-full md:w-auto hover:bg-red-500 active:scale-95 transition-all text-white font-bold text-sm tracking-widest px-10 py-4 rounded-xl shrink-0">
+          <Link href={"/search"} className="bg-red-400 w-full md:w-auto hover:bg-red-500 active:scale-95 transition-all text-white font-bold text-sm tracking-widest px-10 py-4 rounded-xl shrink-0">
             SEARCH
-          </button>
+          </Link>
 
         </div>
       </div>

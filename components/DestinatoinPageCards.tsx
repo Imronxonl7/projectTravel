@@ -110,7 +110,7 @@ const DestinatoinPageCards = ({
                       )}
 
                       <Link
-                        href={`/destination/${dest.slug}`}
+                        href={`/destination/${dest.id}`}
                         className="dest-btn"
                       >
                         Explore

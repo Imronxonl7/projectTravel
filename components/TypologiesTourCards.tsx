@@ -14,14 +14,14 @@ const TypologiesTourCards = ({ typologies }: { typologies: Category[] }) => {
       ">
         {typologies?.map((el) => (
           <Link
-            href={``}
+            href={`/typologies/${el.id}`}
             key={el?.id}
             className="group relative rounded-2xl overflow-hidden block"
             style={{ aspectRatio: '655 / 419' }}
           >
             {/* Background Image */}
             <Image
-              src={el?.icon}
+              src={el?.icon?.startsWith('http') ? el.icon : `https://x8ki-letl-twmt.n7.xano.io${el?.icon?.startsWith('/') ? '' : '/'}${el?.icon}`}
               alt={el?.name}
               fill
               className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
