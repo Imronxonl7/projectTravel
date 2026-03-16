@@ -16,7 +16,7 @@ const ContactUsPage = () => {
         />
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(15,15,30,0.75),rgba(0,0,0,0.1))] z-10" />
         <div className="relative z-20 flex flex-col items-center justify-center h-full gap-2">
-          
+
           <p
             className="text-4xl sm:text-5xl font-bold text-white"
             style={{ fontFamily: "Georgia, serif" }}
@@ -94,10 +94,10 @@ const ContactUsPage = () => {
       {/* Map */}
       {/* Map - formning tagiga kirib ketsin */}
       <div
-      
-       className="w-full h-150 -mt-62 relative z-0">
+
+        className="w-full h-150 -mt-62 relative z-0">
         <iframe
-          src="https://maps.google.com/maps?q=Miami+Beach&output=embed"
+          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Miami+Beach+(Travel%20Agency)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           width="100%"
           height="100%"
           style={{ border: 0 }}
