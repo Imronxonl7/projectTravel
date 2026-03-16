@@ -22,7 +22,7 @@ export default function BookingCard({ packageData }: { packageData: Package }) {
         (medicalInsurance ? medicalPrice : 0);
 
     return (
-        <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl duration-300 p-6 w-85">
+        <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl duration-300 p-6 lg:w-85 w-full">
             {/* Price Header */}
             <div className="flex items-end justify-between mb-5">
                 <div>
