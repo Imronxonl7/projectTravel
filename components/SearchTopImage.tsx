@@ -3,18 +3,24 @@ import React from 'react'
 
 const SearchTopImage = () => {
   return (
-    <div>
-      <div className='relative w-full h-96 overflow-hidden'>
+    <div className='w-full'>
+       <div className="relative w-full h-72 sm:h-96 overflow-hidden">
               <Image
-                src='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRvvF4iLAvf-kS2PTd3SX0aD6irPeE04_1JBZX1Thxjr7swd8fT'
-                alt='Footer Background'
+              src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ__wR3q9XaKxPI_2z7me4oEhNUx5WXrFDqaZGFDg9T7OAeV2Ug'
+                alt="ContactUs Background"
                 fill
-                className='object-cover scale-x-[-1] object-center'
+                className="object-cover object-center"
                 priority
               />
-              <div className='absolute inset-0 bg-[linear-gradient(180deg,#1d1d1d,rgba(0,0,0,0)_100%)] z-10' />
-              <div className='relative z-20 flex items-center justify-center h-full'>
-                <p className='text-[50px] font-bold text-white'>Our packages</p>
+              <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(15,15,30,0.75),rgba(0,0,0,0.1))] z-10" />
+              <div className="relative z-20 flex flex-col items-center justify-center h-full gap-2">
+                
+                <p
+                  className="text-4xl sm:text-5xl font-bold text-white"
+                  style={{ fontFamily: "Georgia, serif" }}
+                >
+                  Our packages
+                </p>
               </div>
             </div>
     </div>

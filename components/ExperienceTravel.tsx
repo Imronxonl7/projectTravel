@@ -37,7 +37,7 @@ const ExperienceTravel = () => {
         .et-section {
           font-family: 'Nunito', sans-serif;
           background-color: #f5f5f5;
-          min-height: 100vh;
+          min-height: 700px;
           display: flex;
           flex-direction: column;
         }

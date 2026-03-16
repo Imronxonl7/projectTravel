@@ -17,6 +17,12 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: 'i.pinimg.com' },
       { protocol: 'https', hostname: 'tse3.mm.bing.net' },
       { protocol: 'https', hostname: 'encrypted-tbn3.gstatic.com' },
+      { protocol: 'https', hostname: 'encrypted-tbn0.gstatic.com' },
+      { protocol: 'https', hostname: 'as2.ftcdn.net' },
+      { protocol: 'https', hostname: 'assets.insuremytrip.com' },
+      { protocol: 'https', hostname: 'www.healthpartners.com' },
+      { protocol: 'https', hostname: 'tgmresearch.com' },
+      { protocol: 'https', hostname: 'encrypted-tbn0.gstatic.com' },
     ],
   },
 };
