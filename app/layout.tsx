@@ -31,7 +31,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <Header/>
-        <main className="mt-19.5">
+        <main className="mt-17.5 sm:mt-19.5">
           {children}
         </main>
         <Footer/>
