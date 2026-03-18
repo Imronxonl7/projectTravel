@@ -11,7 +11,7 @@ const ClearPriceCards = () => {
           <div className="grid grid-cols-1 gap-[28px] sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
 
             {/* card 1 */}
-            <div className="w-full max-w-[340px] min-h-[440px]
+            <div className="w-full max-w-[440px] min-h-[440px]
 bg-[#F2F2F2] rounded-[16px] p-[32px] text-center
 shadow-md
 transition-all duration-500 ease-out
@@ -40,7 +40,7 @@ hover:scale-[1.06] hover:shadow-2xl
             </div>
 
             {/* card 2 */}
-            <div className="w-full max-w-[340px] min-h-[440px]
+            <div className="w-full max-w-[440px] min-h-[440px]
 bg-[#1BBC9B] rounded-[16px] p-[32px] text-center
 shadow-md
 transition-all duration-500 ease-out
@@ -68,12 +68,11 @@ hover:scale-[1.06] hover:shadow-2xl
             </div>
 
             {/* card 3 */}
-            <div className="w-full max-w-[340px] min-h-[440px]
+            <div className="w-full max-w-[440px] min-h-[440px]
 bg-[#434A54] rounded-[16px] p-[32px] text-center
 shadow-md
 transition-all duration-500 ease-out
 hover:scale-[1.06] hover:shadow-2xl
-sm:col-span-2 sm:max-w-[340px] lg:col-span-1
 ">
 
               <p className="text-[14px] text-white font-semibold mb-[16px]">
